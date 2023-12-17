@@ -1,0 +1,148 @@
+/* play */
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+}
+
+/* roboto */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2');
+}
+:root {
+  --color-brand: #2b7fff;
+  --color-primary-dark: #011c44;
+  --color-primary-light: #ffffff;
+}
+
+body {
+  color: var(--color-primary-dark);
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.link {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-brand);
+  font-weight: 700;
+}
+
+.hero-title {
+  color: var(--color-brand);
+  font-family: Play;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+
+.button {
+  color: var(--color-primary-light);
+  font-size: 18px;
+  background-color: var(--color-brand);
+  font-weight: 500;
+  border-color: var(--color-brand);
+  border-radius: 32px;
+}
+.button:hover {
+  color: var(--color-primary-dark);
+  background: transparent;
+}
+
+.button-text {
+  font-size: 12px;
+}
+
+/* services-section */
+.section-title {
+  font-family: Play;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.section-title .accent-brand {
+  color: var(--color-brand);
+  text-transform: capitalize;
+}
+
+.services-text {
+  font-size: 22px;
+  line-height: 1.7;
+}
+.services-text .brand {
+  text-transform: capitalize;
+}
+
+/* advantages-section */
+.section-title .accent {
+  color: var(--color-brand);
+}
+.advantages-text {
+  color: black;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+/* procedures-section */
+
+/* location-section */
+.follow {
+  color: var(--color-primary-light);
+  font-size: 22px;
+  font-weight: 500;
+}
+.follow .accent {
+  color: var(--color-brand);
+}
+
+/* footer */
+
+.address-link {
+  color: var(--color-primary-light);
+  font-size: 16px;
+  text-decoration: none;
+}
+.address-link:hover {
+  color: var(--color-brand);
+}
+
+.address-copyright {
+  color: #747272;
+  font-size: 13px;
+}
